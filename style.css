@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.nav {
+  margin: 26px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuItem {
+  margin: 0 48px;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #230b59;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menuLink:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+}
+
+.login {
+  border: 1px solid #4840bb;
+  border-radius: 6px;
+  padding: 13px 21px 13px 21px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #4840bb;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+}
+
+.login:hover {
+  background-color: #4840bb;
+  color: white;
+  transition: 1s;
+}
+
+.login:active {
+  color: red;
+}
+
+.start {
+  border-radius: 6px;
+  background: #4840bb;
+  padding: 12px 21px 13px 21px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.start:hover {
+  background-color: white;
+  color: #4840bb;
+  transition: 1s;
+  border: 1px solid #4840bb;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  margin: 26px 64px;
+}
+
+.right-side {
+  width: 745px;
+  height: 559px;
+}
+
+.left-side {
+  margin-left: 48px;
+}
+
+.left-side .title {
+  padding-right: 70px;
+  font-size: 50px;
+  font-weight: 400;
+  color: #230b59;
+}
+
+.content {
+  padding-top: 39px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #230b59;
+}
+
+.button {
+  margin-top: 51px;
+  padding: 11px 20px;
+  background: #4840bb;
+  border-radius: 6px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #4840bb;
+}
+
+.button:hover {
+  background-color: white;
+  color: #4840bb;
+  transition: 1s;
+}
+.button:active {
+  color: white;
+  background-color: red;
+}
+
+.list {
+  margin: 26px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.item .text {
+  color: #230b59;
+}
+
+.item .text {
+  margin-top: 11px;
+}
+
+.item .star {
+  width: 22px;
+}
+
+.item .count-text {
+  font-size: 25px;
+}
+
+.item .income-text {
+  font-size: 25px;
+}
+
+.item span {
+  font-size: 24px;
+  color: #230b59;
+}
